@@ -12,3 +12,5 @@ transform = Transform3D(8, 0, 0, 0, 0.4, 0, 0, 0, 8, -0.0449001, 0.0725479, 0)
 shape = SubResource("BoxShape3D_ra8a6")
 
 [node name="Node" type="Node" parent="Area3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
